@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>A Form</title>
+	<link rel="stylesheet" type="text/css" href="reset.css"/>
+	<link rel="stylesheet" type="text/css" href="style.css"/>
+</head>
+<body>
+<main>
+	<form action="/submit" type="post">
+		<section class="col">
+			<label for="firstName">First Name</label>
+			<input id="firstName" type="text" name="firstName" placeholder="Jane" />
+			<label for="lastName">Last Name</label>
+			<input id="lastName" type="text" name="lastName" placeholder="Doe" />
+			<label for="email">Email Address</label>
+			<input id="email" type="email" name="email" placeholder="jane.doe@google.com" />
+			<label for="country">Country</label>
+			<select id="country" name="country">
+				<option value="" disabled selected>Choose your country</option>
+				<option value="unitedStates">United States</option>
+				<option value="canada">Canada</option>
+				<option value="mexico">Mexico</option>
+			</select>
+			<label for="biography">Biography</label>
+			<textarea id="biography" name="biography"></textarea>
+		</section>
+		<section class="col">
+			<label for="phone">Phone Number</label>
+			<input id="phone" type="tel" name="phone" placeholder="+1 555-555-5555">
+			<label for="affil">Affialiations</label>
+			<textarea id="affil" name="affil"></textarea>
+			<label for="occupation">Occupation</label>
+			<select id="occupation" name="occupation">
+				<option value="" disabled selected>Choose your occupation</option>
+				<option value="designer">Designer</option>
+				<option value="front">Front end</option>
+				<option value="back">Back End</option>
+			</select>
+			<label for="cat">Cat's name</label>
+			<input id="cat" type="text" name="cat" placeholder="Pumba" />
+			<label for="gadget">Favorite Gadget</label>
+			<input id="gadget" type="text" name="gadget" placeholder="Cellular Device" />
+		</section>
+		<section class="col">
+			<label for="talent">Type of talent</label>
+			<select id="talent" name="talent">
+				<option value="" disabled selected>Choose your talent</option>
+				<option value="typing">Speed Typing</option>
+				<option value="flame">Flame Throwing</option>
+				<option value="sword">Sword Swallowing</option>
+			</select>
+			<label for="drink">Favorite Drink</label>
+			<input id="drink" type="text" name="drink" placeholder="Coke Zero"/>
+			<label for="power">Special Power</label>
+			<input id="power" type="type" name="power" placeholder="Picking winning lottery numbers"/>
+			<label for="weapon">Weapon of Choice</label>
+			<input id="weapon" type="text" name="weapon" placeholder="Ball of compassion"/>
+			<label for="comments">Comments</label>
+			<textarea id="comments" name="comments"></textarea>
+		</section>
+	</form>
+</main>
+</body>
+</html>
